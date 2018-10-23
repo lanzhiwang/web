@@ -61,9 +61,9 @@ func(string) string // 0x743eb0
 
 #### 框架基本架构
 
-![]()
+![](https://github.com/lanzhiwang/web/blob/master/go_web_01.jpg)
 
-![]()
+![](https://github.com/lanzhiwang/web/blob/master/go_web_02.jpg)
 
 
 
