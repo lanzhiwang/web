@@ -41,7 +41,7 @@ lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$ go get -u golang.org/x/crypto
 lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$ go get -u golang.org/x/net
 lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$ go get -u golang.org/x/sys
 lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$
-lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$ go run src/web/examples/hello.go 
+lanzhiwang@lanzhiwang-desktop:~/work/go_workspace$ go run src/web/examples/hello.go
 string // /(.*)
 func(string) string // 0x743eb0
 2018/10/23 14:09:02 web.go serving [::]:9999
