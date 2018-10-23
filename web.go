@@ -3,6 +3,7 @@
 package web
 
 import (
+	"fmt"
 	"crypto/tls"
 	"golang.org/x/net/websocket"
 	"log"
@@ -164,6 +165,8 @@ func Close() {
 
 // Get adds a handler for the 'GET' http method in the main server.
 func Get(route string, handler interface{}) {
+	fmt.Println(reflect.TypeOf(route), "//", reflect.ValueOf(route))
+	fmt.Println(reflect.TypeOf(handler), "//", reflect.ValueOf(handler))
 	mainServer.Get(route, handler)
 }
 
