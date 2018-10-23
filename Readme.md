@@ -59,4 +59,12 @@ func(string) string // 0x743eb0
 
 * net/http
 
+#### 框架基本架构
+
+![]()
+
+![]()
+
+
+
 [感谢](https://github.com/hoisie/web)
