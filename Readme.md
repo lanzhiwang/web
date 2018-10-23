@@ -1,5 +1,7 @@
 # First Web Applications Framework By Go
 
+#### 开发环境说明
+
 ```bash
 $ echo "PATH=${PATH}:/usr/local/go/bin" >> /etc/profile
 $ mkdir -p ~/work/go_workspace
@@ -47,5 +49,14 @@ func(string) string // 0x743eb0
 2018/10/23 14:09:02 web.go serving [::]:9999
 
 ```
+
+#### 重要的 go 基础
+
+* 接口类型以及接口类型变量赋值
+* reflect
+    * type Type interface {}
+    * type Value struct {}
+
+* net/http
 
 [感谢](https://github.com/hoisie/web)
